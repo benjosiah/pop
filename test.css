@@ -1,0 +1,15 @@
+body{
+    padding: 0%;
+    background: linear-gradient(to right,red,rgb(8, 68, 8));
+    text-align: center;
+    color: rgba(0, 0, 0, .6);
+    letter-spacing:5px;
+
+}
+h1{
+    text-align: center;
+}
+input{
+    margin: auto;
+    
+}

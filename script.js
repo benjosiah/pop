@@ -1,5 +1,7 @@
 var topbtt=document.getElementById('btt'),
 formdiv = document.getElementById('form-col'),
+form = document.querySelector('.top'),
+form1 = document.querySelector('.top1'),
 formdive = document.getElementById('form-col1'),
 scroll= scroll(top);
 window.onscroll= function(){
@@ -30,5 +32,6 @@ function HideSignForm() {
     formdive.style.display='none';
     
 }
-
+form.addEventListener('click',showSignform);
+form1.addEventListener('click',showSignupform);
 
