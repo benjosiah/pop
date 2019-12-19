@@ -6,6 +6,11 @@ html,body{
 	padding: 0px;
 	
 }
+button{
+	background-color: linear-gradient(to right,
+	 rgb(241, 131, 222),
+	  rgb(31, 2, 145));
+}
 .container{
 	margin: auto;
 	margin-top: 0px;
@@ -164,3 +169,4 @@ li{
 	right: 35%;
 	z-index: 100;
 	position: fixed;
+}
